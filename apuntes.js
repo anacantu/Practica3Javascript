@@ -1,3 +1,18 @@
+// sobre parámetros
+
+var mi_funcion= function(param_1, param_2){
+	console.log("Funciones");
+}
+
+var mi_funcion= function(param_1, param_2){
+	console.log("El parametro 1 es: " + param_1);
+	console.log("El parametro 2 es: " + param_2);
+}
+
+function saludar(a_quien){
+	alert("Hola " + a_quien);
+}
+
 function saludar(a_quien){
 	var aleatorio = Math.random();
 	console.log("Hola " + a_quien);
